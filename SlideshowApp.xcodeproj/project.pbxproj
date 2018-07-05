@@ -12,6 +12,10 @@
 		045703F220EDC92A00FD77DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045703F020EDC92A00FD77DE /* Main.storyboard */; };
 		045703F420EDC92B00FD77DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045703F320EDC92B00FD77DE /* Assets.xcassets */; };
 		045703F720EDC92B00FD77DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045703F520EDC92B00FD77DE /* LaunchScreen.storyboard */; };
+		045703FF20EDD15B00FD77DE /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045703FE20EDD15B00FD77DE /* DisplayViewController.swift */; };
+		0457040320EDD4B600FD77DE /* コテージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0457040020EDD4B600FD77DE /* コテージ.jpg */; };
+		0457040420EDD4B600FD77DE /* 橋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0457040120EDD4B600FD77DE /* 橋.jpg */; };
+		0457040520EDD4B600FD77DE /* 湖.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0457040220EDD4B600FD77DE /* 湖.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		045703F320EDC92B00FD77DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045703F620EDC92B00FD77DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045703F820EDC92B00FD77DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045703FE20EDD15B00FD77DE /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		0457040020EDD4B600FD77DE /* コテージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "コテージ.jpg"; sourceTree = "<group>"; };
+		0457040120EDD4B600FD77DE /* 橋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "橋.jpg"; sourceTree = "<group>"; };
+		0457040220EDD4B600FD77DE /* 湖.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "湖.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		045703EB20EDC92A00FD77DE /* SlideshowApp */ = {
 			isa = PBXGroup;
 			children = (
+				0457040620EDD4CD00FD77DE /* photos */,
 				045703EC20EDC92A00FD77DE /* AppDelegate.swift */,
 				045703EE20EDC92A00FD77DE /* ViewController.swift */,
+				045703FE20EDD15B00FD77DE /* DisplayViewController.swift */,
 				045703F020EDC92A00FD77DE /* Main.storyboard */,
 				045703F320EDC92B00FD77DE /* Assets.xcassets */,
 				045703F520EDC92B00FD77DE /* LaunchScreen.storyboard */,
 				045703F820EDC92B00FD77DE /* Info.plist */,
 			);
 			path = SlideshowApp;
+			sourceTree = "<group>";
+		};
+		0457040620EDD4CD00FD77DE /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				0457040020EDD4B600FD77DE /* コテージ.jpg */,
+				0457040120EDD4B600FD77DE /* 橋.jpg */,
+				0457040220EDD4B600FD77DE /* 湖.jpg */,
+			);
+			path = photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,8 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0457040520EDD4B600FD77DE /* 湖.jpg in Resources */,
 				045703F720EDC92B00FD77DE /* LaunchScreen.storyboard in Resources */,
+				0457040320EDD4B600FD77DE /* コテージ.jpg in Resources */,
 				045703F420EDC92B00FD77DE /* Assets.xcassets in Resources */,
+				0457040420EDD4B600FD77DE /* 橋.jpg in Resources */,
 				045703F220EDC92A00FD77DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045703EF20EDC92A00FD77DE /* ViewController.swift in Sources */,
+				045703FF20EDD15B00FD77DE /* DisplayViewController.swift in Sources */,
 				045703ED20EDC92A00FD77DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
